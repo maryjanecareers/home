@@ -1,7 +1,7 @@
-const template = document.createElement("template")
+const template = document.createElement('template')
 
-template.innerHTML=`
-        <header class="absolute top-0 w-full">
+template.innerHTML = `
+        <header class="fixed top-0 left-0 w-full">
             <div class="flex">
                 <div class="flex w-1/2">
                     <a href="index.html">
