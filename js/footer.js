@@ -5,7 +5,10 @@ footerTemplate.innerHTML = `
         
         <footer class="bg-primary-75 text-white">
             <section class="grid grid-rows-1 grid-flow-col items-center gap-2 w-screen">
-                <img src="images/logo.png" alt="MaryJane Careers Logo" class="size-24 rounded-xl ml-8 my-4">
+                <a href="index.html" class="h-fit
+                    w-fit">
+                    <img src="images/logo.png" alt="MaryJane Careers Logo" class="size-24 rounded-xl ml-8 my-4">
+                </a>
                 <ul class="pt-8 underline underline-offset-4">
                     <li class="pb-4"><a href="/tester.html">Be A Tester</li>
                 </ul>
