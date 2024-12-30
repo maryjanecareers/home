@@ -5,7 +5,7 @@ template.innerHTML = `
             <div class="flex">
                 <div class="flex w-1/2">
                     <a href="index.html">
-                        <img src="images/logo.png" alt="MaryJane Careers" class="size-24">
+                        <img src="images/logo.png" alt="MaryJane Careers" class="size-24 rounded-xl ml-8 my-4">
                     </a>
                 </div>
                 <div class="
