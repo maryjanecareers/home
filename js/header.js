@@ -1,16 +1,17 @@
 const template = document.createElement('template')
 
 template.innerHTML = `
-        <header class="fixed top-0 left-0 w-full">
+        <header class="fixed top-0 left-0 w-full bg-primary/25">
             <div class="flex">
                 <div class="flex w-1/2">
                     <a href="index.html">
-                        <img src="images/logo.png" alt="MaryJane Careers" class="size-32">
+                        <img src="images/logo.png" alt="MaryJane Careers" class="size-24">
                     </a>
                 </div>
                 <div class="
                 flex
                 justify-end
+                items-center
                 gap-2
                 w-1/2
                 p-2
