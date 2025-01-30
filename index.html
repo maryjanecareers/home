@@ -27,40 +27,44 @@
     <div class="relative">
       <script src="js/header.js"></script>
       <img
-        class="relative"
-        src="images/scientists-hero.jpeg"
-        alt="Symbols for phone and email"
+        class="relative hidden phone:hidden tablet:hidden laptop:block tablet:block"
+        src="images/scientists-hero-desktop-text.jpeg"
+        alt="Cultivating opportunities, harvesting success"
       />
-      <h1 class="absolute text-white text-5xl bottom-64 left-8">
-        Cultivating Opportunities,
-      </h1>
-      <h1 class="absolute text-white text-5xl bottom-36 left-44">
-        Harvesting Success.
-      </h1>
+      <img
+        class="relative phone:block tablet:block laptop:hidden desktop:hidden"
+        src="images/scientists-hero-mobile-text.jpeg"
+        alt="Cultivating opportunities, harvesting success"
+      />
     </div>
-    <section class="bg-primary-lightest py-32 px-44">
-      <h3 class="text-4xl text-primary-8 m-auto text-center mb-24 w-3/4">
+    <article class="max-w-7xl py-32 grid grid-rows-3 mx-auto">
+      <h1 class="text-4xl text-primary-8 text-center mb-24 w-3/4 px-20 row-span-full col-span-full mx-auto">
         Welcome to MaryJane Careers, where we're dedicated to shaping a fair and thriving cannabis industry.
       </h3>
-      <article class="pl-16 flex mb-32 space-x-24">
-        <p class="max-w-72 text-2xl text-primary-6 text-left">
+      <section class="mb-32 grid phone:grid-cols-1 tablet:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-2">
+        <img
+          src="images/woman-cannabis-farmer.jpg"
+          alt="woman cannabis farmer"
+          class="pb-20 w-full phone:block tablet:block laptop:hidden desktop:hidden"
+        />
+        <p class="text-2xl text-primary-darkest mx-20">
           Our mission is to connect passionate professionals with opportunities that prioritize fair wages, safe environments, and respectful working conditions.
         </p>
         <img
           src="images/woman-cannabis-farmer.jpg"
-          alt=""
-          class="max-w-96 rounded-3xl"
+          alt="woman cannabis farmer"
+          class="w-full phone:hidden tablet:hidden laptop:block desktop:block"
         />
-      </article>
-      <article class="flex justify-end space-x-28">
-        <img src="images/trimmers.jpg" alt="" class="max-w-96 rounded-3xl" />
-        <p class="max-w-96 text-2xl text-primary-6 text-right">
+      </section>
+      <section class="grid phone:grid-cols-1 tablet:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-2">
+        <img src="images/trimmers.jpg" alt="Trimming marijuana plants" class="w-full phone:pb-20 tablet:pb-20" />
+        <p class="text-2xl text-primary-darkest mx-20">
           We believe that the people who power this growing industry deserve equitable treatment and a workplace they can be proud of.
           <br />
           Whether you’re seeking your next career move or looking to hire, we’re here to build strong, ethical connections that drive success for businesses and individuals alike. Together, let’s cultivate a brighter future for the cannabis community.
         </p>
-      </article>
-    </section>
+      </section>
+    </article>
     <script src="js/footer.js"></script>
   </body>
 </html>
